@@ -1,0 +1,55 @@
+Package: luci-app-clash
+Version: v1.7.5.7
+Depends: libc, luci-base, wget, iptables, coreutils-base64, coreutils, coreutils-nohup, bash, ipset, libustream-openssl20200215, curl, jsonfilter, ca-certificates, iptables-mod-tproxy, kmod-tun
+Section: luci
+Architecture: all
+Installed-Size: 3410248
+Filename: luci-app-clash_v1.7.5.7_all.ipk
+Size: 3230803
+SHA256sum: 70d0815b11c20440000960d2f0e1548fd9765de511eef17b6f09558d7a56abf4
+Description:  Luci Interface for clash.
+
+Package: luci-app-openclash
+Version: 0.40.14-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, jsonfilter, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap
+Section: opt
+Architecture: all
+Installed-Size: 2795502
+Filename: luci-app-openclash_0.40.14-beta_all.ipk
+Size: 2630532
+SHA256sum: 0fc451a7df10f2079120e02b44961f38ed4bc7525818646136a4a4036df9c3f4
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall
+Version: 3.9-73
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, curl, ca-certificates, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, ssocks, microsocks, pdnsd-alt, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-local, shadowsocks-libev-ss-server, shadowsocksr-libev-alt, shadowsocksr-libev-ssr-local, shadowsocksr-libev-server, v2ray, trojan-plus, trojan-go, kcptun-client, haproxy, chinadns-ng, https-dns-proxy, v2ray-plugin, simple-obfs
+Section: opt
+Architecture: all
+Installed-Size: 897049
+Filename: luci-app-passwall_3.9-73_all.ipk
+Size: 897097
+SHA256sum: b9f2a01445c97fd31f49470479694f9a2fea80f2171841e8b937950e13de467e
+Description:  LuCI support for PassWall
+
+Package: luci-app-smartdns
+Version: 1-3
+Depends: libc, smartdns
+Section: luci
+Architecture: all
+Installed-Size: 5387
+Filename: luci-app-smartdns_1-3_all.ipk
+Size: 6124
+SHA256sum: d98f5f425f833d5113cc6e384ec02ba7a2ab71a9247d4949be4358883bda3a8e
+Description:  Luci for smartdns server
+
+Package: luci-i18n-smartdns-zh-cn
+Version: 1-3
+Depends: libc, luci-app-smartdns
+Section: luci
+Architecture: all
+Installed-Size: 3191
+Filename: luci-i18n-smartdns-zh-cn_1-3_all.ipk
+Size: 3985
+SHA256sum: dec700e6c622eaa0abadfdfda4a4e79fd379e675b6a17daaa54c2cf7189816df
+Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
+

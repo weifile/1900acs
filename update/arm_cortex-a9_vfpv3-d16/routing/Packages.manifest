@@ -1,0 +1,15 @@
+Package: luci-app-hnet
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-3
+Depends: libc
+Source: feeds/routing/hnetd
+SourceName: luci-app-hnet
+License: GPL-2.0
+Section: luci
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: arm_cortex-a9_vfpv3-d16
+Installed-Size: 56780
+Filename: luci-app-hnet_2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-3_arm_cortex-a9_vfpv3-d16.ipk
+Size: 57637
+SHA256sum: abfbbcf39a2e200aa70a8776e098edf7f46b70accd32beef3c00081e3a9bd480
+Description:  HNCP Homenet configuration and visualization
+
